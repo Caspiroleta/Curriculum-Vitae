@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <style>
+      table, th, td {
+        border:1px solid black
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <svg width="100px" height="110px" viewBox="77 30 100 90" >
+          <image xlink:href="image\logo.svg" width="300px" height="300px"></image>
+      </svg>
+    </div>
+    <div>
+      <h1>HOJA DE VIDA</h1>
+      <h2>CAMILO ÁNDRES CARDOZO SÁNCHEZ</h2>
+      <h3>25 de Agosto del 1977, Sogamoso Boyacá, Colombia</h3>
+    </div>
+    <div>
+      <ul>
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="experiencia.html">EXPERIENCIA</a></li>
+      </ul>
+    </div>
+    <div>
+      <h1>Educación</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>AÑO</th>
+            <th>NIVEL DE ESTUDIO</th>
+            <th>INSTITUCIÓN</th>
+            <th>LUGAR</td>
+            <th>¿CULMINO?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2003</td>
+            <td>TÉCNICO EN MANTENIMIENTO ELECTRÓNICO</td>
+            <td>SENA</td>
+            <td>Sogamoso, Boyacá</td>
+            <td>Sí</td>
+          </tr>
+          <tr>
+            <td>2011</td>
+            <td>TECNÓLOGO EN ELECTRÓNICA</td>
+            <td>UPTC</td>
+            <td>Sogamoso, Boyacá</td>
+            <td>Sí</td>
+          </tr>
+          <tr>
+            <td>2014</td>
+            <td>INGENIERO ELECTRÓNICO</td>
+            <td>UNAD</td>
+            <td>Sogamoso, Boyacá</td>
+            <td>Sí</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>ESPECIALIZACIÓN EN DESARROLLO DE APLICACIONES PARA REDES MÓVILES</td>
+            <td>POLITÉCNICO GRAN COLOMBIANO</td>
+            <td>Bogotá, Colombia</td>
+            <td>Sí</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br>
+    <div>
+      <form autocomplete="on" name="studies Formulary">
+        <legend><b>Agregar Estudios</b></legend>
+        <br>
+        <label><b>Año:</b></label>
+        <select name="years">
+          <option value="2003">2003</option>
+          <option value="2004">2004</option>
+          <option value="2005">2005</option>
+          <option value="2006">2006</option>
+          <option value="2007">2007</option>
+          <option value="2008">2008</option>
+          <option value="2009">2009</option>
+          <option value="2010">2010</option>
+          <option value="2011">2011</option>
+          <option value="2012">2012</option>
+          <option value="2013">2013</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+        </select>
+        <br>
+        <br>
+        <label for="institut"><b>Instituto:</b></label>
+        <input type="text" name="instituto" id="institut">
+        <br>
+        <br>
+        <label for="place"><b>Lugar:</b></label>
+        <input type="text" name="place" id="place">
+        <br>
+        <br>
+        <label>¿Culminó?&ensp;</label>
+        <label for="yes">SÍ</label>
+        <input type="radio" name="yes" id="yes" value="yes">
+        <label for="no">NO</label>
+        <input type="radio" name="no" id="no" value="no">
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+      </form>
+      <div>
+        <footer>
+          <h4>Puedes encontrarme en:</h4>
+          <ul>
+            <li>email: camiloandrescardozo13@gmail.com</li>
+            <li>Celular: 3177722973</li>
+            <li> <a href="https://www.facebook.com/camilo.a.cardozo.5" target="_blank">Encuentrana en facebook</a></li>
+            <li> <a href="https://www.linkedin.com/in/camilo-cardozo-7325a437" target="_blank">Encuentrame en linkedin</a> </li>
+          </ul>
+        </footer>
+      </div>
+  </body>
+</html>
